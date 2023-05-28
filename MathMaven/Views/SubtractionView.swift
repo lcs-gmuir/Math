@@ -61,7 +61,9 @@ struct SubtractionView: View {
                     if answerCorrect == true {
                      
                         LottieView(animationNamed: "70005-green-checkmark")
+                            .frame(width: 80, height: 80)
                     }
+                       
                     
                     // Show this when the answer was checked and found to be false
                     if answerChecked == true && answerCorrect == false {

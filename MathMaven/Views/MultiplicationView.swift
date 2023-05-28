@@ -58,8 +58,8 @@ struct MultiplicationView: View {
                     
                     // Only show this when the answer was found to be correct
                     if answerCorrect == true {
-                        Image(systemName: "checkmark.circle")
-                            .foregroundColor(.green)
+                        LottieView(animationNamed: "70005-green-checkmark")
+                            .frame(width: 80, height: 80)
                     }
                     
                     // Show this when the answer was checked and found to be false

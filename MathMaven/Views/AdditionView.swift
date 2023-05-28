@@ -66,8 +66,9 @@ struct AdditionView: View {
                     
                     // Show this when the answer was checked and found to be false
                     if answerChecked == true && answerCorrect == false {
-                        Image(systemName: "x.square")
-                            .foregroundColor(.red)
+                        LottieView(animationNamed: "103831-circle-x.json")
+                            .frame(width: 80, height: 80)
+                        
                     }
                 }
                 

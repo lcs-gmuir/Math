@@ -20,6 +20,7 @@
 		985756012A23E2B50065E32F /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985756002A23E2B50065E32F /* LottieView.swift */; };
 		985756042A23E4550065E32F /* 70005-green-checkmark.json in Resources */ = {isa = PBXBuildFile; fileRef = 985756032A23E4550065E32F /* 70005-green-checkmark.json */; };
 		985756062A23E4A30065E32F /* Checkmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985756052A23E4A30065E32F /* Checkmark.swift */; };
+		985756082A23E90C0065E32F /* 103831-circle-x.json in Resources */ = {isa = PBXBuildFile; fileRef = 985756072A23E90C0065E32F /* 103831-circle-x.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		985756002A23E2B50065E32F /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		985756032A23E4550065E32F /* 70005-green-checkmark.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "70005-green-checkmark.json"; sourceTree = "<group>"; };
 		985756052A23E4A30065E32F /* Checkmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkmark.swift; sourceTree = "<group>"; };
+		985756072A23E90C0065E32F /* 103831-circle-x.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103831-circle-x.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 		985756022A23E4210065E32F /* Animations  */ = {
 			isa = PBXGroup;
 			children = (
+				985756072A23E90C0065E32F /* 103831-circle-x.json */,
 				985756032A23E4550065E32F /* 70005-green-checkmark.json */,
 			);
 			path = "Animations ";
@@ -189,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				985756082A23E90C0065E32F /* 103831-circle-x.json in Resources */,
 				985756042A23E4550065E32F /* 70005-green-checkmark.json in Resources */,
 				814859002A1E28DF00A7315E /* Preview Assets.xcassets in Resources */,
 				814858FD2A1E28DF00A7315E /* Assets.xcassets in Resources */,

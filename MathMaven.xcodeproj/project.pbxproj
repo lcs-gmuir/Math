@@ -16,6 +16,8 @@
 		8148590F2A1E298300A7315E /* DivisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8148590E2A1E298300A7315E /* DivisionView.swift */; };
 		814859122A1E2A5900A7315E /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814859112A1E2A5900A7315E /* Operation.swift */; };
 		814859162A1E360D00A7315E /* CheckAnswerButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814859152A1E360D00A7315E /* CheckAnswerButtonView.swift */; };
+		985755FF2A23E24B0065E32F /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 985755FE2A23E24B0065E32F /* Lottie */; };
+		985756012A23E2B50065E32F /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985756002A23E2B50065E32F /* LottieView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,7 @@
 		8148590E2A1E298300A7315E /* DivisionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionView.swift; sourceTree = "<group>"; };
 		814859112A1E2A5900A7315E /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
 		814859152A1E360D00A7315E /* CheckAnswerButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckAnswerButtonView.swift; sourceTree = "<group>"; };
+		985756002A23E2B50065E32F /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				985755FF2A23E24B0065E32F /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +85,7 @@
 		814859062A1E292A00A7315E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				985756002A23E2B50065E32F /* LottieView.swift */,
 				814859142A1E35E100A7315E /* Helpers */,
 				814859072A1E293C00A7315E /* AdditionView.swift */,
 				814859092A1E294A00A7315E /* SubtractionView.swift */,
@@ -122,6 +127,9 @@
 			dependencies = (
 			);
 			name = MathMaven;
+			packageProductDependencies = (
+				985755FE2A23E24B0065E32F /* Lottie */,
+			);
 			productName = MathMaven;
 			productReference = 814858F52A1E28DE00A7315E /* MathMaven.app */;
 			productType = "com.apple.product-type.application";
@@ -150,6 +158,9 @@
 				Base,
 			);
 			mainGroup = 814858EC2A1E28DE00A7315E;
+			packageReferences = (
+				985755FD2A23E24B0065E32F /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 814858F62A1E28DE00A7315E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -183,6 +194,7 @@
 				8148590F2A1E298300A7315E /* DivisionView.swift in Sources */,
 				814859122A1E2A5900A7315E /* Operation.swift in Sources */,
 				814859162A1E360D00A7315E /* CheckAnswerButtonView.swift in Sources */,
+				985756012A23E2B50065E32F /* LottieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +397,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		985755FD2A23E24B0065E32F /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		985755FE2A23E24B0065E32F /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 985755FD2A23E24B0065E32F /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 814858ED2A1E28DE00A7315E /* Project object */;
 }
